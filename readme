@@ -10,4 +10,5 @@ and how it can be used with Java, TestNG.
    These reports can be seen at: Goibibo_01/test-output/Extent.html
 4. To run the tests use the following command:
     mvn clean test
+5 . Or it can be run from the testNG.xml file.   
 5. Logs can be found in Assurity_02/application.log.
