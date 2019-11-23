@@ -1,0 +1,6 @@
+com\qa\utils\RestUtils.class
+com\qa\utils\AssignmentImpl.class
+com\qa\base\BaseClass.class
+com\qa\utils\CommonMethods.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\qa\utils\TestUtils.class

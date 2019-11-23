@@ -1,0 +1,13 @@
+Test automation framework using REST ASSURED with Java, TestNG and Maven
+------------------------------------------------------------------------------------------------------------------------------------------
+
+  This project demonstrates REST ASSURED for API testing ,
+and how it can be used with Java, TestNG.
+   
+1  For data source excel sheet is used. (Assurity_02\src\main\java\com\qa\testdata\Assurity_TestData.xlsx)
+2. For reporting testNG reporting utility is used.
+3. Also Extended reporting is used for better looking,readable reports.
+   These reports can be seen at: Goibibo_01/test-output/Extent.html
+4. To run the tests use the following command:
+    mvn clean test
+5. Logs can be found in Assurity_02/application.log.

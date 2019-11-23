@@ -1,0 +1,229 @@
+2019-11-23 17:31:08,950  INFO [main] BaseClass:41 - Setup job completed.
+2019-11-23 17:31:11,084 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {s}->https://api.tmsandbox.co.nz:443
+2019-11-23 17:31:11,149 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to api.tmsandbox.co.nz:443
+2019-11-23 17:31:13,123 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-23 17:31:13,128 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2019-11-23 17:31:13,129 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-11-23 17:31:13,131 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-11-23 17:31:13,132 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2019-11-23 17:31:13,133 DEBUG [main] DefaultClientConnection:276 - Sending request: GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2019-11-23 17:31:13,135 DEBUG [main] wire:72 -  >> "GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1[\r][\n]"
+2019-11-23 17:31:13,139 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-23 17:31:13,140 DEBUG [main] wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-11-23 17:31:13,141 DEBUG [main] wire:72 -  >> "Host: api.tmsandbox.co.nz[\r][\n]"
+2019-11-23 17:31:13,142 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-23 17:31:13,143 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_221)[\r][\n]"
+2019-11-23 17:31:13,144 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-23 17:31:13,146 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2019-11-23 17:31:13,147 DEBUG [main] headers:280 - >> GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2019-11-23 17:31:13,148 DEBUG [main] headers:283 - >> Accept: */*
+2019-11-23 17:31:13,157 DEBUG [main] headers:283 - >> Content-Length: 0
+2019-11-23 17:31:13,158 DEBUG [main] headers:283 - >> Host: api.tmsandbox.co.nz
+2019-11-23 17:31:13,159 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2019-11-23 17:31:13,160 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_221)
+2019-11-23 17:31:13,161 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2019-11-23 17:31:13,549 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-23 17:31:13,552 DEBUG [main] wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-23 17:31:13,554 DEBUG [main] wire:72 -  << "X-Correlation-ID: a8605958-5f63-4c58-8b08-b920065147b9[\r][\n]"
+2019-11-23 17:31:13,555 DEBUG [main] wire:72 -  << "X-Request-ID: e962a8c4-25e3-4e46-b72c-62479e0c3703[\r][\n]"
+2019-11-23 17:31:13,556 DEBUG [main] wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-23 17:31:13,556 DEBUG [main] wire:72 -  << "Access-Control-Expose-Headers: ETag[\r][\n]"
+2019-11-23 17:31:13,557 DEBUG [main] wire:72 -  << "X-UA-Compatible: IE=Edge[\r][\n]"
+2019-11-23 17:31:13,558 DEBUG [main] wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-11-23 17:31:13,559 DEBUG [main] wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-11-23 17:31:13,560 DEBUG [main] wire:72 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-11-23 17:31:13,561 DEBUG [main] wire:72 -  << "Connection: Keep-Alive[\r][\n]"
+2019-11-23 17:31:13,562 DEBUG [main] wire:72 -  << "Date: Sat, 23 Nov 2019 12:01:12 GMT[\r][\n]"
+2019-11-23 17:31:13,564 DEBUG [main] wire:72 -  << "Age: 66922  [\r][\n]"
+2019-11-23 17:31:13,565 DEBUG [main] wire:72 -  << "Content-Length: 828[\r][\n]"
+2019-11-23 17:31:13,566 DEBUG [main] wire:72 -  << "[\r][\n]"
+2019-11-23 17:31:13,568 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-11-23 17:31:13,569 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2019-11-23 17:31:13,571 DEBUG [main] headers:267 - << Content-Type: application/json
+2019-11-23 17:31:13,572 DEBUG [main] headers:267 - << X-Correlation-ID: a8605958-5f63-4c58-8b08-b920065147b9
+2019-11-23 17:31:13,573 DEBUG [main] headers:267 - << X-Request-ID: e962a8c4-25e3-4e46-b72c-62479e0c3703
+2019-11-23 17:31:13,574 DEBUG [main] headers:267 - << Access-Control-Allow-Origin: *
+2019-11-23 17:31:13,575 DEBUG [main] headers:267 - << Access-Control-Expose-Headers: ETag
+2019-11-23 17:31:13,576 DEBUG [main] headers:267 - << X-UA-Compatible: IE=Edge
+2019-11-23 17:31:13,577 DEBUG [main] headers:267 - << Vary: Accept-Encoding
+2019-11-23 17:31:13,578 DEBUG [main] headers:267 - << Content-Encoding: gzip
+2019-11-23 17:31:13,578 DEBUG [main] headers:267 - << Accept-Ranges: bytes
+2019-11-23 17:31:13,579 DEBUG [main] headers:267 - << Connection: Keep-Alive
+2019-11-23 17:31:13,581 DEBUG [main] headers:267 - << Date: Sat, 23 Nov 2019 12:01:12 GMT
+2019-11-23 17:31:13,581 DEBUG [main] headers:267 - << Age: 66922  
+2019-11-23 17:31:13,581 DEBUG [main] headers:267 - << Content-Length: 828
+2019-11-23 17:31:13,593 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-11-23 17:31:13,630 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2019-11-23 17:31:13,633 DEBUG [main] wire:86 -  << "[0x1f]"
+2019-11-23 17:31:13,634 DEBUG [main] wire:86 -  << "[0x8b]"
+2019-11-23 17:31:13,635 DEBUG [main] wire:86 -  << "[0x8]"
+2019-11-23 17:31:13,636 DEBUG [main] wire:86 -  << "[0x0]"
+2019-11-23 17:31:13,637 DEBUG [main] wire:86 -  << "[0x0][0x0][0x0][0x0][0x4][0x3]"
+2019-11-23 17:31:13,638 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-23 17:31:13,853 DEBUG [main] wire:72 -  << "[0xaa]VrN,IM[0xcf]/[0xaa][0xf4]LQ[0xb2]2362[0xd7]Q[0xf2]K[0xcc]MU[0xb2][0x2]J[0x14]%[0xe5][0xe7])$[0x17][0xa5][0xa6]d[0x96][0x14]+[0xe9]([0x5]$[0x96]d[0x0][0xc5]c[0xf4][0x9d]J[0x8b]3[0xf3]R[0x8b][0x8b]u[0xd3][0x12][0x8b]r3[0xf3][0xd2]u3[0xf3]RJ[0x8b]K[0x8a]*c[0xf4]![0x9a]t[0x11][0x9a][0x9c][0x13][0xf3]|2[0x8b]K[0x1c]K[0x93]K2[0xf3][0xf3][0x8a][0x95][0xac]J[0x8a]JS[0xe1][0xc2][0xce]9[0x89][0xc5][0xc5][0x99]i[0x99][0xa9])[0xc8]2A[0xa9]9@9[0x98][0x80]Ojzb[0x8e]_~If2[0xd8]U[0xf9][0xb9][0x5]9[0x99][0x89]y[0xc9][0xa9][\n]"
+2019-11-23 17:31:13,854 DEBUG [main] wire:72 -  << ".[0xa9][0xc9]9[0x89]E[0x89] scJ[\r][0xc][0xc][0x12]=[0x15][0x92][0xf3][0xf3][0xd2]2[0x8b]r[0x15]J2[0x12]K[0x80]Djq[0xaa]B2[0xd8]E0o($[0x16][0x1][0x85]R[0x8b]J[0xc0][0x96]*$[0xe6][0xa5]([0x14][0xa5][0xa6][0x3]mK[0x5][0xca]+[0x94]g[0x96]d($[0xa2]k[0x81](([0xaa][0xd4]S[0x0][0xfa][0xc7]%5-[0xb1]4[0xa7][0xc4][0xa5][0x14]b[0xb1][0x92][0x95][0xa1][0x89][0x8e][0x92]cNN~yj[\n]"
+2019-11-23 17:31:13,855 DEBUG [main] wire:72 -  << "L[0x10][0xe8][0x97]h#[0x1d]c[0x1d][0x13][0x1d]S[0x1d]3[0x1d]s[0x1d]C[0x3][0x1d]C[0x93]X[0x1d]%[0xb7][0xd4]T[0xa0]T[0xb5][0x92]Si^J[0xe][0xd0]3[0x86][0xa6]z@g[0x1b][0xe8]([0xb9][0xe6][0xa5][0xb8][0x0][0xa3]A[0xc9][0xca]@[0xcf][0xc8][0x14]$[0xe0][0x96][0x9a]XRZ[0x4][0x14]04[0x80]*qO[0xcc][0xc9]I-[0xaa]T[0xb2]2[0x82][\n]"
+2019-11-23 17:31:13,856 DEBUG [main] wire:86 -  << "[0x80][0x82][0xf][0x18][0xf6]@[0x1]K[0xa8]H[0x10][0xd0][0xbb]Ee@M0S[0x82]K[0x93]J2K@6[0x19][0xe8][0x99][0x82]EBR[0xf3]\[0x12]+[0x81][0x8e][0x80])[0x81][0x9a][0x2]tYHfj[0x11]P"[0xba]Z[0xc9]73/3[0xb7]4[0x17]$[0x10]P[0x4][0xe]u[0xa0]B[0xb7][0xcc][0x8a][0xd4][0x14][0xa0]2[0xa8]}[0xb5]@[0xef][0x4][0xa7][0x2][0x83];[0x5][0x96]~[0x80][0xaa][0xf4],-[0x81]2@[0xb5]E[0xa9][0xa9][0x1][0x19][0xf9]%[0xf9][0xce][0xf9][0xa5]y[0xc0]x4[0x2][0xea][0xf7]M[0xac][0x0][0x19][0x8a].[0xec]Y[0xc]R[0x1c][0x92][0x8f][0x1a][0xe5][0x1]E[0xf9][0xb9][0xc0][0x8][0x87][0x84]d[0xb5][0x12](i[0x1a][0xc2][0xd3][0xa5]Sbqf28&[0x8a][0x93][0x8b]2[0xb]@[0xca][0x80][0xa2]>[0xc0][0x8](.Q([0xc8]/"
+2019-11-23 17:31:13,860 DEBUG [main] wire:72 -  << "[0xce][0x4][0x89](d[0x2][0xe3][0xf][0xe6]2[0x90][0x81][0x10][0x0]][0xe][0xf2]5[0xd4][0x87][0xc8][0x8e][0x1][0xba][0x1b]b[0x91][0x11][0xdc]"X[0x90][0xa3][[0xe5][0x9e][0x9f][0x9f][0x82][0xd5]"[0x5]H24[0xaa]P[0x0][0xa6][0xcb][0xf4][0xd4]"[0x85][0xcc][0xdc][0xc4][0xf4]T[0x90][0x8a][0x94][0xd4][0xe2][0xec][0x92][0xfc][0x2][0x5][0xa0][0x9e]T[0x85][0xe2][0xd4][0xc4][0xa2][0xe4][0xc]`[0xb2]*[0x6]&[0xa4]b[0xa0][0xf1]P[0xd7][0xc1]b[0xd6][0xbf](3=3/1[0x7]M[0x18][0x9f][0xa3][0x8d][0xe1][0x8e][0x86][0xa5][0x1c]tG;[0xa5][0x96][0x0][0xd3]8>g[0x9b][0x90][0xea]l[0xa8][0xfb][0xe0]I[0x14][0xcd][0xdd]p[0xf1] `:[0xc9][0xcd]M[0xcd]KI[0x5][0xba][0x14][0x12][0xc1][0xf8][0xfc][0x2][0xcc]O[0xa8]~Qp[0xce][0xcf]M[0xca][0x7]Z[0x88][0xee]#[0xf4][0xf8]F[0xf5][0x8f]g^rN)[0xd0][0x7][\n]"
+2019-11-23 17:31:13,861 DEBUG [main] wire:72 -  << "I[0xa9]y[0xa9]i[0xa0][0x8c][0x9c][0x9f][0xa6][0x0]3[0x12][0xa2][0xc4]#3=#[0x7][0x88][0x81]r[0xa0][0xe4][0x7][0xcc][0x8] spz[0x14][0x96]][0xd1]=[\n]"
+2019-11-23 17:31:13,862 DEBUG [main] wire:86 -  << "[0x13][0xc7][0xea]+`Fq[0xcd]MJM[0x1][0xfa][0xde]9?[0xaf]$5[0xaf][0xc4][0x1f][0xec][0x3]P[0xd2][0x6][0xca]A[0xf3]E[0x8]([0x9f][0xfa][0xa4][0xe6][0xa5][0x83][0x8a]X[0xb][0xa0]Y[0x8e]E[0xa9][0x89][0xfe]i[0xb0][0x92][0x16]h[0x9][0xc8][0xfb][0xe0][0xa2][0x7][0x92]U\J[0x8b][0x12]K2[0xf3][0xf3][0x94][0xac][0xcc]k[0x1][0x1][0x0][0x0][0xff][0xff][0x9c]P[0xb2]p[0xc5][0x5][0x0][0x0]"
+2019-11-23 17:31:13,864 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@42d236fb
+2019-11-23 17:31:13,865 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-11-23 17:31:14,526  INFO [main] BaseClass:70 - validateName completed
+2019-11-23 17:31:14,610  INFO [main] BaseClass:41 - Setup job completed.
+2019-11-23 17:31:14,629 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {s}->https://api.tmsandbox.co.nz:443
+2019-11-23 17:31:14,630 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to api.tmsandbox.co.nz:443
+2019-11-23 17:31:16,748 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-23 17:31:16,748 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2019-11-23 17:31:16,749 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-11-23 17:31:16,750 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-11-23 17:31:16,751 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2019-11-23 17:31:16,752 DEBUG [main] DefaultClientConnection:276 - Sending request: GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2019-11-23 17:31:16,752 DEBUG [main] wire:72 -  >> "GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1[\r][\n]"
+2019-11-23 17:31:16,752 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-23 17:31:16,753 DEBUG [main] wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-11-23 17:31:16,753 DEBUG [main] wire:72 -  >> "Host: api.tmsandbox.co.nz[\r][\n]"
+2019-11-23 17:31:16,753 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-23 17:31:16,753 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_221)[\r][\n]"
+2019-11-23 17:31:16,754 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-23 17:31:16,754 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2019-11-23 17:31:16,754 DEBUG [main] headers:280 - >> GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2019-11-23 17:31:16,755 DEBUG [main] headers:283 - >> Accept: */*
+2019-11-23 17:31:16,755 DEBUG [main] headers:283 - >> Content-Length: 0
+2019-11-23 17:31:16,755 DEBUG [main] headers:283 - >> Host: api.tmsandbox.co.nz
+2019-11-23 17:31:16,755 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2019-11-23 17:31:16,755 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_221)
+2019-11-23 17:31:16,755 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2019-11-23 17:31:17,158 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-23 17:31:17,158 DEBUG [main] wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-23 17:31:17,161 DEBUG [main] wire:72 -  << "X-Correlation-ID: a8605958-5f63-4c58-8b08-b920065147b9[\r][\n]"
+2019-11-23 17:31:17,163 DEBUG [main] wire:72 -  << "X-Request-ID: e962a8c4-25e3-4e46-b72c-62479e0c3703[\r][\n]"
+2019-11-23 17:31:17,164 DEBUG [main] wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-23 17:31:17,165 DEBUG [main] wire:72 -  << "Access-Control-Expose-Headers: ETag[\r][\n]"
+2019-11-23 17:31:17,167 DEBUG [main] wire:72 -  << "X-UA-Compatible: IE=Edge[\r][\n]"
+2019-11-23 17:31:17,168 DEBUG [main] wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-11-23 17:31:17,169 DEBUG [main] wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-11-23 17:31:17,170 DEBUG [main] wire:72 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-11-23 17:31:17,171 DEBUG [main] wire:72 -  << "Connection: Keep-Alive[\r][\n]"
+2019-11-23 17:31:17,173 DEBUG [main] wire:72 -  << "Date: Sat, 23 Nov 2019 12:01:16 GMT[\r][\n]"
+2019-11-23 17:31:17,174 DEBUG [main] wire:72 -  << "Age: 66926  [\r][\n]"
+2019-11-23 17:31:17,175 DEBUG [main] wire:72 -  << "Content-Length: 828[\r][\n]"
+2019-11-23 17:31:17,176 DEBUG [main] wire:72 -  << "[\r][\n]"
+2019-11-23 17:31:17,177 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-11-23 17:31:17,178 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2019-11-23 17:31:17,179 DEBUG [main] headers:267 - << Content-Type: application/json
+2019-11-23 17:31:17,179 DEBUG [main] headers:267 - << X-Correlation-ID: a8605958-5f63-4c58-8b08-b920065147b9
+2019-11-23 17:31:17,181 DEBUG [main] headers:267 - << X-Request-ID: e962a8c4-25e3-4e46-b72c-62479e0c3703
+2019-11-23 17:31:17,182 DEBUG [main] headers:267 - << Access-Control-Allow-Origin: *
+2019-11-23 17:31:17,184 DEBUG [main] headers:267 - << Access-Control-Expose-Headers: ETag
+2019-11-23 17:31:17,185 DEBUG [main] headers:267 - << X-UA-Compatible: IE=Edge
+2019-11-23 17:31:17,185 DEBUG [main] headers:267 - << Vary: Accept-Encoding
+2019-11-23 17:31:17,186 DEBUG [main] headers:267 - << Content-Encoding: gzip
+2019-11-23 17:31:17,187 DEBUG [main] headers:267 - << Accept-Ranges: bytes
+2019-11-23 17:31:17,188 DEBUG [main] headers:267 - << Connection: Keep-Alive
+2019-11-23 17:31:17,188 DEBUG [main] headers:267 - << Date: Sat, 23 Nov 2019 12:01:16 GMT
+2019-11-23 17:31:17,189 DEBUG [main] headers:267 - << Age: 66926  
+2019-11-23 17:31:17,190 DEBUG [main] headers:267 - << Content-Length: 828
+2019-11-23 17:31:17,191 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-11-23 17:31:17,192 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2019-11-23 17:31:17,193 DEBUG [main] wire:86 -  << "[0x1f]"
+2019-11-23 17:31:17,193 DEBUG [main] wire:86 -  << "[0x8b]"
+2019-11-23 17:31:17,194 DEBUG [main] wire:86 -  << "[0x8]"
+2019-11-23 17:31:17,195 DEBUG [main] wire:86 -  << "[0x0]"
+2019-11-23 17:31:17,195 DEBUG [main] wire:86 -  << "[0x0][0x0][0x0][0x0][0x4][0x3]"
+2019-11-23 17:31:17,196 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-23 17:31:17,199 DEBUG [main] wire:72 -  << "[0xaa]VrN,IM[0xcf]/[0xaa][0xf4]LQ[0xb2]2362[0xd7]Q[0xf2]K[0xcc]MU[0xb2][0x2]J[0x14]%[0xe5][0xe7])$[0x17][0xa5][0xa6]d[0x96][0x14]+[0xe9]([0x5]$[0x96]d[0x0][0xc5]c[0xf4][0x9d]J[0x8b]3[0xf3]R[0x8b][0x8b]u[0xd3][0x12][0x8b]r3[0xf3][0xd2]u3[0xf3]RJ[0x8b]K[0x8a]*c[0xf4]![0x9a]t[0x11][0x9a][0x9c][0x13][0xf3]|2[0x8b]K[0x1c]K[0x93]K2[0xf3][0xf3][0x8a][0x95][0xac]J[0x8a]JS[0xe1][0xc2][0xce]9[0x89][0xc5][0xc5][0x99]i[0x99][0xa9])[0xc8]2A[0xa9]9@9[0x98][0x80]Ojzb[0x8e]_~If2[0xd8]U[0xf9][0xb9][0x5]9[0x99][0x89]y[0xc9][0xa9][\n]"
+2019-11-23 17:31:17,199 DEBUG [main] wire:72 -  << ".[0xa9][0xc9]9[0x89]E[0x89] scJ[\r][0xc][0xc][0x12]=[0x15][0x92][0xf3][0xf3][0xd2]2[0x8b]r[0x15]J2[0x12]K[0x80]Djq[0xaa]B2[0xd8]E0o($[0x16][0x1][0x85]R[0x8b]J[0xc0][0x96]*$[0xe6][0xa5]([0x14][0xa5][0xa6][0x3]mK[0x5][0xca]+[0x94]g[0x96]d($[0xa2]k[0x81](([0xaa][0xd4]S[0x0][0xfa][0xc7]%5-[0xb1]4[0xa7][0xc4][0xa5][0x14]b[0xb1][0x92][0x95][0xa1][0x89][0x8e][0x92]cNN~yj[\n]"
+2019-11-23 17:31:17,200 DEBUG [main] wire:72 -  << "L[0x10][0xe8][0x97]h#[0x1d]c[0x1d][0x13][0x1d]S[0x1d]3[0x1d]s[0x1d]C[0x3][0x1d]C[0x93]X[0x1d]%[0xb7][0xd4]T[0xa0]T[0xb5][0x92]Si^J[0xe][0xd0]3[0x86][0xa6]z@g[0x1b][0xe8]([0xb9][0xe6][0xa5][0xb8][0x0][0xa3]A[0xc9][0xca]@[0xcf][0xc8][0x14]$[0xe0][0x96][0x9a]XRZ[0x4][0x14]04[0x80]*qO[0xcc][0xc9]I-[0xaa]T[0xb2]2[0x82][\n]"
+2019-11-23 17:31:17,200 DEBUG [main] wire:86 -  << "[0x80][0x82][0xf][0x18][0xf6]@[0x1]K[0xa8]H[0x10][0xd0][0xbb]Ee@M0S[0x82]K[0x93]J2K@6[0x19][0xe8][0x99][0x82]EBR[0xf3]\[0x12]+[0x81][0x8e][0x80])[0x81][0x9a][0x2]tYHfj[0x11]P"[0xba]Z[0xc9]73/3[0xb7]4[0x17]$[0x10]P[0x4][0xe]u[0xa0]B[0xb7][0xcc][0x8a][0xd4][0x14][0xa0]2[0xa8]}[0xb5]@[0xef][0x4][0xa7][0x2][0x83];[0x5][0x96]~[0x80][0xaa][0xf4],-[0x81]2@[0xb5]E[0xa9][0xa9][0x1][0x19][0xf9]%[0xf9][0xce][0xf9][0xa5]y[0xc0]x4[0x2][0xea][0xf7]M[0xac][0x0][0x19][0x8a].[0xec]Y[0xc]R[0x1c][0x92][0x8f][0x1a][0xe5][0x1]E[0xf9][0xb9][0xc0][0x8][0x87][0x84]d[0xb5][0x12](i[0x1a][0xc2][0xd3][0xa5]Sbqf28&[0x8a][0x93][0x8b]2[0xb]@[0xca][0x80][0xa2]>[0xc0][0x8](.Q([0xc8]/"
+2019-11-23 17:31:17,200 DEBUG [main] wire:72 -  << "[0xce][0x4][0x89](d[0x2][0xe3][0xf][0xe6]2[0x90][0x81][0x10][0x0]][0xe][0xf2]5[0xd4][0x87][0xc8][0x8e][0x1][0xba][0x1b]b[0x91][0x11][0xdc]"X[0x90][0xa3][[0xe5][0x9e][0x9f][0x9f][0x82][0xd5]"[0x5]H24[0xaa]P[0x0][0xa6][0xcb][0xf4][0xd4]"[0x85][0xcc][0xdc][0xc4][0xf4]T[0x90][0x8a][0x94][0xd4][0xe2][0xec][0x92][0xfc][0x2][0x5][0xa0][0x9e]T[0x85][0xe2][0xd4][0xc4][0xa2][0xe4][0xc]`[0xb2]*[0x6]&[0xa4]b[0xa0][0xf1]P[0xd7][0xc1]b[0xd6][0xbf](3=3/1[0x7]M[0x18][0x9f][0xa3][0x8d][0xe1][0x8e][0x86][0xa5][0x1c]tG;[0xa5][0x96][0x0][0xd3]8>g[0x9b][0x90][0xea]l[0xa8][0xfb][0xe0]I[0x14][0xcd][0xdd]p[0xf1] `:[0xc9][0xcd]M[0xcd]KI[0x5][0xba][0x14][0x12][0xc1][0xf8][0xfc][0x2][0xcc]O[0xa8]~Qp[0xce][0xcf]M[0xca][0x7]Z[0x88][0xee]#[0xf4][0xf8]F[0xf5][0x8f]g^rN)[0xd0][0x7][\n]"
+2019-11-23 17:31:17,201 DEBUG [main] wire:72 -  << "I[0xa9]y[0xa9]i[0xa0][0x8c][0x9c][0x9f][0xa6][0x0]3[0x12][0xa2][0xc4]#3=#[0x7][0x88][0x81]r[0xa0][0xe4][0x7][0xcc][0x8] spz[0x14][0x96]][0xd1]=[\n]"
+2019-11-23 17:31:17,201 DEBUG [main] wire:86 -  << "[0x13][0xc7][0xea]+`Fq[0xcd]MJM[0x1][0xfa][0xde]9?[0xaf]$5[0xaf][0xc4][0x1f][0xec][0x3]P[0xd2][0x6][0xca]A[0xf3]E[0x8]([0x9f][0xfa][0xa4][0xe6][0xa5][0x83][0x8a]X[0xb][0xa0]Y[0x8e]E[0xa9][0x89][0xfe]i[0xb0][0x92][0x16]h[0x9][0xc8][0xfb][0xe0][0xa2][0x7][0x92]U\J[0x8b][0x12]K2[0xf3][0xf3][0x94][0xac][0xcc]k[0x1][0x1][0x0][0x0][0xff][0xff][0x9c]P[0xb2]p[0xc5][0x5][0x0][0x0]"
+2019-11-23 17:31:17,202 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@24fabd0f
+2019-11-23 17:31:17,202 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-11-23 17:31:17,220  INFO [main] BaseClass:85 - validateCanRelist completed
+2019-11-23 17:31:17,250  INFO [main] BaseClass:41 - Setup job completed.
+2019-11-23 17:31:17,260 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {s}->https://api.tmsandbox.co.nz:443
+2019-11-23 17:31:17,261 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to api.tmsandbox.co.nz:443
+2019-11-23 17:31:19,409 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-23 17:31:19,410 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2019-11-23 17:31:19,410 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2019-11-23 17:31:19,412 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2019-11-23 17:31:19,412 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2019-11-23 17:31:19,413 DEBUG [main] DefaultClientConnection:276 - Sending request: GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2019-11-23 17:31:19,414 DEBUG [main] wire:72 -  >> "GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1[\r][\n]"
+2019-11-23 17:31:19,415 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-23 17:31:19,417 DEBUG [main] wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-11-23 17:31:19,417 DEBUG [main] wire:72 -  >> "Host: api.tmsandbox.co.nz[\r][\n]"
+2019-11-23 17:31:19,419 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-23 17:31:19,420 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_221)[\r][\n]"
+2019-11-23 17:31:19,421 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-23 17:31:19,422 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2019-11-23 17:31:19,422 DEBUG [main] headers:280 - >> GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2019-11-23 17:31:19,424 DEBUG [main] headers:283 - >> Accept: */*
+2019-11-23 17:31:19,425 DEBUG [main] headers:283 - >> Content-Length: 0
+2019-11-23 17:31:19,426 DEBUG [main] headers:283 - >> Host: api.tmsandbox.co.nz
+2019-11-23 17:31:19,427 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2019-11-23 17:31:19,444 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_221)
+2019-11-23 17:31:19,446 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2019-11-23 17:31:19,457 DEBUG [Finalizer] DefaultClientConnection:182 - Connection 0.0.0.0:62884<->202.21.128.231:443 closed
+2019-11-23 17:31:19,923 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-23 17:31:19,924 DEBUG [main] wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-23 17:31:19,924 DEBUG [main] wire:72 -  << "X-Correlation-ID: a8605958-5f63-4c58-8b08-b920065147b9[\r][\n]"
+2019-11-23 17:31:19,925 DEBUG [main] wire:72 -  << "X-Request-ID: e962a8c4-25e3-4e46-b72c-62479e0c3703[\r][\n]"
+2019-11-23 17:31:19,926 DEBUG [main] wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-23 17:31:19,926 DEBUG [main] wire:72 -  << "Access-Control-Expose-Headers: ETag[\r][\n]"
+2019-11-23 17:31:19,927 DEBUG [main] wire:72 -  << "X-UA-Compatible: IE=Edge[\r][\n]"
+2019-11-23 17:31:19,928 DEBUG [main] wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2019-11-23 17:31:19,928 DEBUG [main] wire:72 -  << "Content-Encoding: gzip[\r][\n]"
+2019-11-23 17:31:19,928 DEBUG [main] wire:72 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-11-23 17:31:19,930 DEBUG [main] wire:72 -  << "Connection: Keep-Alive[\r][\n]"
+2019-11-23 17:31:19,931 DEBUG [main] wire:72 -  << "Date: Sat, 23 Nov 2019 12:01:19 GMT[\r][\n]"
+2019-11-23 17:31:19,931 DEBUG [main] wire:72 -  << "Age: 66929  [\r][\n]"
+2019-11-23 17:31:19,932 DEBUG [main] wire:72 -  << "Content-Length: 828[\r][\n]"
+2019-11-23 17:31:19,932 DEBUG [main] wire:72 -  << "[\r][\n]"
+2019-11-23 17:31:19,933 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2019-11-23 17:31:19,934 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2019-11-23 17:31:19,934 DEBUG [main] headers:267 - << Content-Type: application/json
+2019-11-23 17:31:19,935 DEBUG [main] headers:267 - << X-Correlation-ID: a8605958-5f63-4c58-8b08-b920065147b9
+2019-11-23 17:31:19,935 DEBUG [main] headers:267 - << X-Request-ID: e962a8c4-25e3-4e46-b72c-62479e0c3703
+2019-11-23 17:31:19,936 DEBUG [main] headers:267 - << Access-Control-Allow-Origin: *
+2019-11-23 17:31:19,937 DEBUG [main] headers:267 - << Access-Control-Expose-Headers: ETag
+2019-11-23 17:31:19,937 DEBUG [main] headers:267 - << X-UA-Compatible: IE=Edge
+2019-11-23 17:31:19,938 DEBUG [main] headers:267 - << Vary: Accept-Encoding
+2019-11-23 17:31:19,938 DEBUG [main] headers:267 - << Content-Encoding: gzip
+2019-11-23 17:31:19,939 DEBUG [main] headers:267 - << Accept-Ranges: bytes
+2019-11-23 17:31:19,939 DEBUG [main] headers:267 - << Connection: Keep-Alive
+2019-11-23 17:31:19,939 DEBUG [main] headers:267 - << Date: Sat, 23 Nov 2019 12:01:19 GMT
+2019-11-23 17:31:19,941 DEBUG [main] headers:267 - << Age: 66929  
+2019-11-23 17:31:19,941 DEBUG [main] headers:267 - << Content-Length: 828
+2019-11-23 17:31:19,943 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2019-11-23 17:31:19,944 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2019-11-23 17:31:19,945 DEBUG [main] wire:86 -  << "[0x1f]"
+2019-11-23 17:31:19,946 DEBUG [main] wire:86 -  << "[0x8b]"
+2019-11-23 17:31:19,946 DEBUG [main] wire:86 -  << "[0x8]"
+2019-11-23 17:31:19,947 DEBUG [main] wire:86 -  << "[0x0]"
+2019-11-23 17:31:19,948 DEBUG [main] wire:86 -  << "[0x0][0x0][0x0][0x0][0x4][0x3]"
+2019-11-23 17:31:19,948 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-23 17:31:20,038 DEBUG [main] wire:72 -  << "[0xaa]VrN,IM[0xcf]/[0xaa][0xf4]LQ[0xb2]2362[0xd7]Q[0xf2]K[0xcc]MU[0xb2][0x2]J[0x14]%[0xe5][0xe7])$[0x17][0xa5][0xa6]d[0x96][0x14]+[0xe9]([0x5]$[0x96]d[0x0][0xc5]c[0xf4][0x9d]J[0x8b]3[0xf3]R[0x8b][0x8b]u[0xd3][0x12][0x8b]r3[0xf3][0xd2]u3[0xf3]RJ[0x8b]K[0x8a]*c[0xf4]![0x9a]t[0x11][0x9a][0x9c][0x13][0xf3]|2[0x8b]K[0x1c]K[0x93]K2[0xf3][0xf3][0x8a][0x95][0xac]J[0x8a]JS[0xe1][0xc2][0xce]9[0x89][0xc5][0xc5][0x99]i[0x99][0xa9])[0xc8]2A[0xa9]9@9[0x98][0x80]Ojzb[0x8e]_~If2[0xd8]U[0xf9][0xb9][0x5]9[0x99][0x89]y[0xc9][0xa9][\n]"
+2019-11-23 17:31:20,038 DEBUG [main] wire:72 -  << ".[0xa9][0xc9]9[0x89]E[0x89] scJ[\r][0xc][0xc][0x12]=[0x15][0x92][0xf3][0xf3][0xd2]2[0x8b]r[0x15]J2[0x12]K[0x80]Djq[0xaa]B2[0xd8]E0o($[0x16][0x1][0x85]R[0x8b]J[0xc0][0x96]*$[0xe6][0xa5]([0x14][0xa5][0xa6][0x3]mK[0x5][0xca]+[0x94]g[0x96]d($[0xa2]k[0x81](([0xaa][0xd4]S[0x0][0xfa][0xc7]%5-[0xb1]4[0xa7][0xc4][0xa5][0x14]b[0xb1][0x92][0x95][0xa1][0x89][0x8e][0x92]cNN~yj[\n]"
+2019-11-23 17:31:20,038 DEBUG [main] wire:72 -  << "L[0x10][0xe8][0x97]h#[0x1d]c[0x1d][0x13][0x1d]S[0x1d]3[0x1d]s[0x1d]C[0x3][0x1d]C[0x93]X[0x1d]%[0xb7][0xd4]T[0xa0]T[0xb5][0x92]Si^J[0xe][0xd0]3[0x86][0xa6]z@g[0x1b][0xe8]([0xb9][0xe6][0xa5][0xb8][0x0][0xa3]A[0xc9][0xca]@[0xcf][0xc8][0x14]$[0xe0][0x96][0x9a]XRZ[0x4][0x14]04[0x80]*qO[0xcc][0xc9]I-[0xaa]T[0xb2]2[0x82][\n]"
+2019-11-23 17:31:20,041 DEBUG [main] wire:86 -  << "[0x80][0x82][0xf][0x18][0xf6]@[0x1]K[0xa8]H[0x10][0xd0][0xbb]Ee@M0S[0x82]K[0x93]J2K@6[0x19][0xe8][0x99][0x82]EBR[0xf3]\[0x12]+[0x81][0x8e][0x80])[0x81][0x9a][0x2]tYHfj[0x11]P"[0xba]Z[0xc9]73/3[0xb7]4[0x17]$[0x10]P[0x4][0xe]u[0xa0]B[0xb7][0xcc][0x8a][0xd4][0x14][0xa0]2[0xa8]}[0xb5]@[0xef][0x4][0xa7][0x2][0x83];[0x5][0x96]~[0x80][0xaa][0xf4],-[0x81]2@[0xb5]E[0xa9][0xa9][0x1][0x19][0xf9]%[0xf9][0xce][0xf9][0xa5]y[0xc0]x4[0x2][0xea][0xf7]M[0xac][0x0][0x19][0x8a].[0xec]Y[0xc]R[0x1c][0x92][0x8f][0x1a][0xe5][0x1]E[0xf9][0xb9][0xc0][0x8][0x87][0x84]d[0xb5][0x12](i[0x1a][0xc2][0xd3][0xa5]Sbqf28&[0x8a][0x93][0x8b]2[0xb]@[0xca][0x80][0xa2]>[0xc0][0x8](.Q([0xc8]/"
+2019-11-23 17:31:20,041 DEBUG [main] wire:72 -  << "[0xce][0x4][0x89](d[0x2][0xe3][0xf][0xe6]2[0x90][0x81][0x10][0x0]][0xe][0xf2]5[0xd4][0x87][0xc8][0x8e][0x1][0xba][0x1b]b[0x91][0x11][0xdc]"X[0x90][0xa3][[0xe5][0x9e][0x9f][0x9f][0x82][0xd5]"[0x5]H24[0xaa]P[0x0][0xa6][0xcb][0xf4][0xd4]"[0x85][0xcc][0xdc][0xc4][0xf4]T[0x90][0x8a][0x94][0xd4][0xe2][0xec][0x92][0xfc][0x2][0x5][0xa0][0x9e]T[0x85][0xe2][0xd4][0xc4][0xa2][0xe4][0xc]`[0xb2]*[0x6]&[0xa4]b[0xa0][0xf1]P[0xd7][0xc1]b[0xd6][0xbf](3=3/1[0x7]M[0x18][0x9f][0xa3][0x8d][0xe1][0x8e][0x86][0xa5][0x1c]tG;[0xa5][0x96][0x0][0xd3]8>g[0x9b][0x90][0xea]l[0xa8][0xfb][0xe0]I[0x14][0xcd][0xdd]p[0xf1] `:[0xc9][0xcd]M[0xcd]KI[0x5][0xba][0x14][0x12][0xc1][0xf8][0xfc][0x2][0xcc]O[0xa8]~Qp[0xce][0xcf]M[0xca][0x7]Z[0x88][0xee]#[0xf4][0xf8]F[0xf5][0x8f]g^rN)[0xd0][0x7][\n]"
+2019-11-23 17:31:20,041 DEBUG [main] wire:72 -  << "I[0xa9]y[0xa9]i[0xa0][0x8c][0x9c][0x9f][0xa6][0x0]3[0x12][0xa2][0xc4]#3=#[0x7][0x88][0x81]r[0xa0][0xe4][0x7][0xcc][0x8] spz[0x14][0x96]][0xd1]=[\n]"
+2019-11-23 17:31:20,041 DEBUG [main] wire:86 -  << "[0x13][0xc7][0xea]+`Fq[0xcd]MJM[0x1][0xfa][0xde]9?[0xaf]$5[0xaf][0xc4][0x1f][0xec][0x3]P[0xd2][0x6][0xca]A[0xf3]E[0x8]([0x9f][0xfa][0xa4][0xe6][0xa5][0x83][0x8a]X[0xb][0xa0]Y[0x8e]E[0xa9][0x89][0xfe]i[0xb0][0x92][0x16]h[0x9][0xc8][0xfb][0xe0][0xa2][0x7][0x92]U\J[0x8b][0x12]K2[0xf3][0xf3][0x94][0xac][0xcc]k[0x1][0x1][0x0][0x0][0xff][0xff][0x9c]P[0xb2]p[0xc5][0x5][0x0][0x0]"
+2019-11-23 17:31:20,041 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@67c119b7
+2019-11-23 17:31:20,041 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2019-11-23 17:31:20,057  INFO [main] BaseClass:110 - validatePromotions completed
+2019-11-23 17:31:20,190 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-11-23 17:31:20,191 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-11-23 17:31:20,193 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-11-23 17:31:20,194 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-11-23 17:31:20,195 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/prs/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-11-23 17:31:20,338 DEBUG [Finalizer] DefaultClientConnection:182 - Connection 0.0.0.0:62885<->202.21.128.231:443 closed
+2019-11-23 17:31:20,340 DEBUG [Finalizer] DefaultClientConnection:182 - Connection 0.0.0.0:62882<->202.21.128.231:443 closed
+2019-11-23 17:31:20,421 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-11-23 17:31:20,422 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-11-23 17:31:20,422 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-11-23 17:31:20,423 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-11-23 17:31:20,423 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/prs/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

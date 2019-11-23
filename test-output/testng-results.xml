@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assurity Test Automation Test Suite" duration-ms="10338" started-at="2019-11-23T11:57:56Z" finished-at="2019-11-23T11:58:07Z">
+    <groups>
+    </groups>
+    <test name="Assurity Test Cases" duration-ms="10338" started-at="2019-11-23T11:57:56Z" finished-at="2019-11-23T11:58:07Z">
+      <class name="com.qa.testCases.AcceptanceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testCases.AcceptanceTest@59ec2012]" name="setUp" is-config="true" duration-ms="83" started-at="2019-11-23T17:27:57Z" finished-at="2019-11-23T17:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testCases.AcceptanceTest@59ec2012]" name="validateName" duration-ms="4539" started-at="2019-11-23T17:27:57Z" data-provider="AcceptanceTestDataPro" finished-at="2019-11-23T17:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Carbon credits]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CanRelist]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2x larger image]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateName -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testCases.AcceptanceTest@59ec2012]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-23T17:28:01Z" finished-at="2019-11-23T17:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCanRelist(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testCases.AcceptanceTest@59ec2012]" name="validateCanRelist" duration-ms="2227" started-at="2019-11-23T17:28:01Z" data-provider="AcceptanceTestDataPro" finished-at="2019-11-23T17:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Carbon credits]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CanRelist]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2x larger image]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCanRelist -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testCases.AcceptanceTest@59ec2012]" name="setUp" is-config="true" duration-ms="0" started-at="2019-11-23T17:28:04Z" finished-at="2019-11-23T17:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePromotions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testCases.AcceptanceTest@59ec2012]" name="validatePromotions" duration-ms="2775" started-at="2019-11-23T17:28:04Z" data-provider="AcceptanceTestDataPro" finished-at="2019-11-23T17:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Carbon credits]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CanRelist]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2x larger image]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePromotions -->
+      </class> <!-- com.qa.testCases.AcceptanceTest -->
+    </test> <!-- Assurity Test Cases -->
+  </suite> <!-- Assurity Test Automation Test Suite -->
+</testng-results>
